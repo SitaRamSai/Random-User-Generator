@@ -11,9 +11,9 @@ module.exports = (env) => {
         },
         module: {
             rules: [{
-             loader: 'babel-loader',
-             test: /\.js$/,
-             exclude: /node_modules/
+                loader: 'babel-loader',
+                test: /\.js$/,
+                exclude: /node_modules/
             }, {
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
@@ -33,7 +33,7 @@ module.exports = (env) => {
             new MiniCssExtractPlugin({
                 filename: 'main.css',
                 chunkFilename: 'main.css',
-            })
+            }),
         ]
     };
 };
