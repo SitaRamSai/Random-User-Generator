@@ -1,9 +1,11 @@
 const path = require('path');
+const { symlink } = require('fs');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = (env) => {
     console.log(env);
-    return {
+
+    return{
         entry: './src/app.js',
         output: {
             filename: 'bundle.js',
@@ -33,7 +35,7 @@ module.exports = (env) => {
             new MiniCssExtractPlugin({
                 filename: 'main.css',
                 chunkFilename: 'main.css',
-            }),
-        ]
-    };
+           })
+        ],
+    };   
 };
