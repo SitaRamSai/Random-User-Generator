@@ -1,6 +1,6 @@
 # random-user-generator
 Simple web application that generates random users using React, Redux, Express.js
 
- npm install
- npm build
- npm run start-server
+1. npm install
+2. npm build
+3. npm run start-server
