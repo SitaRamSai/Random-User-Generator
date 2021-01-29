@@ -5,4 +5,4 @@ Simple web application that generates random users using React, Redux, Express.j
 2. npm build
 3. npm run start-server
 
-Here is the demo: https://random-user-generator-webapp.herokuapp.com
+DEMO: https://random-user-generator-webapp.herokuapp.com
