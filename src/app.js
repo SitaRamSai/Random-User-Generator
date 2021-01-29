@@ -6,7 +6,7 @@ import { addUsers } from './actions/users';
 import Header from './components/Header';
 import UsersList from './components/UserList';
 import { Provider } from 'react-redux';
-import './css/styles.css';
+// import './css/styles.css';
 
 
 
